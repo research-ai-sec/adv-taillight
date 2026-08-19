@@ -1,0 +1,26 @@
+.conda/
+*.pth
+*.ckpt
+*.pkl
+data/smoke_torch/
+data/**/*.pt
+data/nuscenes
+data/nuscenes_occ
+SurroundOcc/extensions/chamfer_dist
+__pycache__/
+
+# large demo / experiment binaries (kept out of version control)
+SurroundOcc/assets/demo*.gif
+data/mask_label.npy
+data/weight/
+
+data/petrv1
+Paddle3D
+output/
+output/
+output_new/
+build/
+caradv.egg-info/
+caradv.egg-info/PKG-INFO
+caradv.egg-info/SOURCES.txt
+caradv.egg-info/top_level.txt
